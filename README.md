@@ -8,3 +8,4 @@
  * [0004. Vue中兄弟组件如何实现通信？](https://github.com/royIdoodle/fe-interview-chaos/issues/4)
  * [0005. Vue中data定义的属性与computed中定的属性有什么不同？](https://github.com/royIdoodle/fe-interview-chaos/issues/5)
  * [0006. vue中的scoped style实现原理是什么？有什么不足？](https://github.com/royIdoodle/fe-interview-chaos/issues/6)
+ * [0007. 实现一个bind函数 不能使用bind、apply、 call](https://github.com/royIdoodle/fe-interview-chaos/issues/7)
