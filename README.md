@@ -2,4 +2,4 @@
 
 ## 欢迎提供你的面试题
 
- * [https://github.com/royIdoodle/fe-interview-chaos/issues/1](https://github.com/royIdoodle/fe-interview-chaos/issues/1)
+ * [0001. Vue中的mixin和extend的区别](https://github.com/royIdoodle/fe-interview-chaos/issues/1)
