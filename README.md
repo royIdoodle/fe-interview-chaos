@@ -9,3 +9,5 @@
  * [0005. Vue中data定义的属性与computed中定的属性有什么不同？](https://github.com/royIdoodle/fe-interview-chaos/issues/5)
  * [0006. vue中的scoped style实现原理是什么？有什么不足？](https://github.com/royIdoodle/fe-interview-chaos/issues/6)
  * [0007. 实现一个bind函数 不能使用bind、apply、 call](https://github.com/royIdoodle/fe-interview-chaos/issues/7)
+ * [0008. 使用原生JS实现一个Promise](https://github.com/royIdoodle/fe-interview-chaos/issues/8)
+ * [0009. 实现一个全量输出promise结果（成功和失败）的方法](https://github.com/royIdoodle/fe-interview-chaos/issues/9)
