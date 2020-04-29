@@ -13,9 +13,12 @@
  
 ## 欢迎互动
 
-大家可以关注我的个人微信公众号 —— **较真的前端**
+大家可以关注微信公众号 —— **较真的前端**，来参与互动
 ![img](https://zens-pic.oss-cn-shenzhen.aliyuncs.com/static/gift/msc/welcome.jpeg)
 
+
+## 贡献者
+![贡献者](http://ergatejs.implements.io/badges/contributors/royIdoodle/fe-interview-chaos_1280_48_6.jpeg)
 
 ## 欢迎提供你的面试题
 
