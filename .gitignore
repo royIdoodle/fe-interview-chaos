@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+# only develop and product need to be watched
+!/proxy
+/proxy/*
+!/proxy/develop.json
+!/proxy/product.json
+!/proxy/preview.json
+/config/*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.gitconfig
+.idea
+.vscode
+.history
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
