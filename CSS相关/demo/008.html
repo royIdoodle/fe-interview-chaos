@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Z-index收影响情况的例子</title>
+  <style lang="css">
+    .wrapper {
+        position: relative;
+    }
+    hr {
+        position: relative;
+    }
+    hr::after {
+        content: ' ';
+        display: block;
+        clear: both;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div style="position: relative; z-index: 0;">
+    <img src="http://image.wangchong.tech/ironman.webp" style="position: absolute; z-index: 2;" alt="">
+  </div>
+  <div style="position: relative; z-index: 0;">
+    <img src="http://image.wangchong.tech/hulk.webp" style="position: absolute; z-index: 1;" alt="">
+  </div>
+</div>
+
+
+<hr>
+</body>
+</html>
