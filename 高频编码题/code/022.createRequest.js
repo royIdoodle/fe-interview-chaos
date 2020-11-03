@@ -14,27 +14,22 @@ function createRequest(options) {
   let count = 0;
   let queue = [];
   return function ajaxWrapper(...args) {
-    return new Promise((resolve, reject) => {
-      if (count < MAX_COUNT) {
-        count++;
-        ajax(...args)
-          .then(data => {
-            resolve(data);
-          })
-          .catch(reason => {
-            reject(reason);
-          })
-          .finally(() => {
-            count--;
-            if (queue.length) {
-              const { params } = queue.shift()
-              resolve(ajaxWrapper(...params))
-            }
-          })
-      } else {
-        queue.push({params: args})
-      }
-    })
+    if (count < MAX_COUNT) {
+      count++;
+      const p = ajax(...args)
+      p.finally(() => {
+        count--;
+        if (queue.length) {
+          const [queueArgs, resolver, rejector] = queue.shift()
+          ajaxWrapper(...queueArgs).then(resolver).catch(rejector)
+        }
+      })
+      return p
+    } else {
+      return new Promise((resolve, reject)=>{
+        queue.push([args, resolve, reject]);
+      });
+    }
   }
 }
 
